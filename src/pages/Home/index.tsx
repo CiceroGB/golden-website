@@ -1,4 +1,5 @@
 import { InfoSection } from "../../components/InfoSection";
+import { Pricing } from "../../components/Princing";
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 
 
@@ -8,6 +9,7 @@ export function Home() {
         <InfoSection {...homeObjOne} />
         <InfoSection {...homeObjTwo} />
         <InfoSection {...homeObjThree} />
+        <Pricing />
         <InfoSection {...homeObjFour} />
         </>
     )
