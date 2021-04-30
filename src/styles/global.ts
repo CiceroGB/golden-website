@@ -8,12 +8,24 @@ interface IStyle {
 
 
 export const GlobalStyle = createGlobalStyle`
-  * {
-  box-sizing: border-box;
+  * {  
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+ }
+
+ body { 
+  -webkit-font-smoothing: antialiased;
+ }
+
+ body, input, textarea, button {
   font-family: 'Source Sans Pro', sans-serif;
- } 
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 600;
+}
+ 
 `;
 
 export const Container = styled.div`
@@ -25,7 +37,7 @@ export const Container = styled.div`
   padding-right: 50px;
   padding-left: 50px;
 
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 994px) {
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -46,10 +58,16 @@ export const Button = styled.button<IStyle>`
     &:hover {    
         background: #fff;
         background-color: ${p => p.primary? '#0467FB' : '#4B59F7'};
-  }
-  @media screen and (max-width: 960px) {
-    width: 100%;
-  }
+    }
+
+    [disable] {
+      opacity: 0.6; 
+      cursor: not-allowed; 
+    }
+   
+    @media screen and (max-width: 960px) {
+      width: 100%;
+    }
 `;
 
 
