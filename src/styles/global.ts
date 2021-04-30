@@ -45,7 +45,7 @@ export const Container = styled.div`
 
 export const Button = styled.button<IStyle>`
     border-radius: 4px;
-    background: ${p => p.primary ? '#F9A526' : '#DE9120'};
+    background: ${p => p.primary ? '#F9A526' : '#A05E0A'};
     white-space: nowrap;
     padding: ${p => p.big ? '12px 64px' : '10px 20px'};
     color: #fff;
@@ -57,7 +57,7 @@ export const Button = styled.button<IStyle>`
 
     &:hover {    
         background: #fff;
-        background-color: ${p => p.primary? '#F9A526' : '#DE9120'};
+        background-color: ${p => p.primary? '#A05E0A' : '#F9A526'};
     }
 
     [disable] {

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaMagento } from 'react-icons/fa';
+import { SiDatadog } from 'react-icons/si';
 import styled from 'styled-components';
 
 import { Container } from '../../styles/global';
@@ -40,7 +40,7 @@ export const NavLogo = styled(Link)`
 
 `;
 
- export const NavIcon = styled(FaMagento)`
+ export const NavIcon = styled(SiDatadog)`
   margin-right: 0.5rem;
 `;
 
@@ -116,7 +116,7 @@ export const NavLinks = styled(Link)`
     display: table;
 
     &:hover {
-      color: #4b59f7;
+      color: #A05E0A;
       transition: all 0.3s ease;
     }
   }
