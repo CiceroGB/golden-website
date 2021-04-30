@@ -14,19 +14,19 @@ import {
 
 interface IData {
     homeObj: {
-        primary: boolean;
-        lightBg: boolean;
-        lightTopLine: boolean;
-        lightText: boolean;
-        lightTextDesc: boolean;
-        topLine: string;
-        headline: string;
-        description: string;
-        buttonLabel: string;
-        imgStart: string;
-        img: string;
-        alt: string;
-        start: string;
+        primary?: boolean;
+        lightBg?: boolean;
+        lightTopLine?: boolean;
+        lightText?: boolean;
+        lightTextDesc?: boolean;
+        topLine?: string;
+        headline?: string;
+        description?: string;
+        buttonLabel?: string;
+        imgStart?: string;
+        img?: string;
+        alt?: string;
+        start?: string;
     }
 }
 
