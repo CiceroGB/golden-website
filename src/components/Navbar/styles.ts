@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { SiDatadog } from 'react-icons/si';
+import { FaDog } from 'react-icons/fa';
 import styled from 'styled-components';
 
 import { Container } from '../../styles/global';
@@ -40,7 +40,7 @@ export const NavLogo = styled(Link)`
 
 `;
 
- export const NavIcon = styled(SiDatadog)`
+ export const NavIcon = styled(FaDog)`
   margin-right: 0.5rem;
 `;
 
