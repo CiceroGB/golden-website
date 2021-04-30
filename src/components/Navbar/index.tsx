@@ -43,7 +43,7 @@ export function Navbar() {
                 <NavContainer>
                     <NavLogo to="/" >
                         <NavIcon />
-                        ULTRA
+                        GOLDEN
                     </NavLogo>
                     <MobileIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
