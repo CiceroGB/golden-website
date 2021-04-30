@@ -1,10 +1,15 @@
+import { InfoSection } from "../../components/InfoSection";
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 
 
 export function Home() {
     return (
-        <div>
-            <h1>HOME</h1>
-        </div>
+        <>
+        <InfoSection {...homeObjOne} />
+        <InfoSection {...homeObjTwo} />
+        <InfoSection {...homeObjThree} />
+        <InfoSection {...homeObjFour} />
+        </>
     )
 }
 

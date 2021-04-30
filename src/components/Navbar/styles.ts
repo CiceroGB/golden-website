@@ -54,8 +54,8 @@ export const MobileIcon = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         color:#fff;
-    cursor: pointer;
-  }
+        cursor: pointer;
+    }
 `;
 
 export const NavMenu = styled.ul<IStyle>`
